@@ -21,6 +21,7 @@
 		8EE8DA221900515B00F39A2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE8DA041900515B00F39A2C /* UIKit.framework */; };
 		8EE8DA2A1900515B00F39A2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EE8DA281900515B00F39A2C /* InfoPlist.strings */; };
 		8EE8DA2C1900515B00F39A2C /* FormulaXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8DA2B1900515B00F39A2C /* FormulaXTests.m */; };
+		8EE8DA371900520000F39A2C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8DA361900520000F39A2C /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8EE8DA271900515B00F39A2C /* FormulaXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FormulaXTests-Info.plist"; sourceTree = "<group>"; };
 		8EE8DA291900515B00F39A2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8EE8DA2B1900515B00F39A2C /* FormulaXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormulaXTests.m; sourceTree = "<group>"; };
+		8EE8DA351900520000F39A2C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8EE8DA361900520000F39A2C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				8EE8DA0F1900515B00F39A2C /* AppDelegate.h */,
 				8EE8DA101900515B00F39A2C /* AppDelegate.m */,
 				8EE8DA121900515B00F39A2C /* Main.storyboard */,
+				8EE8DA351900520000F39A2C /* Reachability.h */,
+				8EE8DA361900520000F39A2C /* Reachability.m */,
 				8EE8DA151900515B00F39A2C /* ViewController.h */,
 				8EE8DA161900515B00F39A2C /* ViewController.m */,
 				8EE8DA181900515B00F39A2C /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			files = (
 				8EE8DA171900515B00F39A2C /* ViewController.m in Sources */,
 				8EE8DA111900515B00F39A2C /* AppDelegate.m in Sources */,
+				8EE8DA371900520000F39A2C /* Reachability.m in Sources */,
 				8EE8DA0D1900515B00F39A2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
